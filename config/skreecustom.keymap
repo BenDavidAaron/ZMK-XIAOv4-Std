@@ -37,12 +37,12 @@
 
         Navigation {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-                        &trans  &trans  &trans    &trans  &trans  &trans
-                        &trans  &trans  &trans    &trans  &trans  &trans
+&none  &none  &none  &none  &none   &none    &none     &none        &none          &none      &none     &none
+&none  &none  &none  &none  &none   &none    &kp HOME  &kp PAGE_UP  &kp PAGE_DOWN  &kp END    &none     &none
+&none  &none  &none  &none  &none   &none    &kp LEFT  &kp DOWN     &kp UP         &kp RIGHT  &kp CAPS  &none
+&none  &none  &none  &none  &none   &none    &none     &none        &none          &none      &none     &none
+                     &none  &none   &none    &none     &none        &none
+                     &none  &trans  &none    &none     &none        &none
             >;
         };
 
